@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Submit{% endblock %}
+
+{% block content %}
+<header>
+    <h1>Prediction Result</h1>
+</header>
+<p>{{ prediction_text }}</p>
+<a href="{{ url_for('home1') }}" class="btn btn-primary">Go Back</a>
+{% endblock %}
